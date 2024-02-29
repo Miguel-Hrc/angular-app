@@ -1,0 +1,42 @@
+Prérequis : VS code
+
+Framework utilisées : Angular v17
+
+
+USAGE :
+
+Terminal:
+
+> npm install -g npm@latest
+
+> npm install -g @angular/cli
+
+> ng new your-project-name
+
+? Which stylesheet format would you like to use? (Use arrow keys)
+> CSS <--
+  SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
+  Sass   [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
+  Less   [ http://lesscss.org                                             ]
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? N
+          
+
+
+> cd your-project-name
+
+> npm install bootstrap
+
+> code .
+
+> npm start
+
+
+
+Pour reprendre ce code : 
+
+Dans le dossier (généralement dans le dossier) "User" de votre disque dure principale, se trouve le dossier "your-project-name".
+
+Dans ce dossier remplacez tout les fichier à l'exception des fichier "node_nodules", ".vscode",".angular", ".git"
+
+
+Récupérer l'url dans le terminal (exemple:   ➜  Local:   http://localhost:5173/) puis copier le dans votre navigateur.
