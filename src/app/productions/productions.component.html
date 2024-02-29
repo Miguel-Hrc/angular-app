@@ -1,0 +1,24 @@
+<h1>Liste des figurines</h1>
+
+<label class="search" for="searchProduct">Chercher par nom du produit</label>
+<input type="text" class="form-control" id="searchProduct"  [(ngModel)]="searchBoxTxt" name="searchBoxTxt"aria-describedby="productName">
+@if ((!searchBoxTxt );){
+<small id="productName" class="form-text text-muted">Entrez le nom du produit</small>}
+<table id="table" class="table table-striped">
+  <button class="button" (click)=" orderBy =  orderBy === 'asc' ? 'desc' : 'asc'">
+  prix croissant/décroissant
+  </button>
+  <tbody>
+    @for (p of ( productions | filterByName: searchBoxTxt | sortByPrice: orderBy ); track p) {
+   <tr class="tableau">
+      <td> <a class="product" [routerLink]="['/'+ p.name]">{{p.name}}</a>  </td>
+      <td class="productP">{{p.price}}</td>
+      <td class="productP">{{p.devise}}</td>
+  </tr>}
+  </tbody>
+
+  
+  
+</table>
+
+  

@@ -1,0 +1,15 @@
+.logo_Github {
+    width: 50px;
+}
+
+.logo_Linkedin {
+    width: 41px;
+}
+
+.socialNetwork{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9D0A3;
+}

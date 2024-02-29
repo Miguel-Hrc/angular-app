@@ -1,0 +1,25 @@
+h1 {
+   color: #FDD90B;
+   font-family: "bubbleboddy" ;
+   margin-top: 5%;
+   margin-left: 5%;
+}
+h2 {
+   color: #FDD90B;
+   font-family: "bubbleboddy" ;
+   margin-left: 5%;
+   margin-top: 2%;
+}
+
+p {
+    color: #151217;
+    font-family: "Comfortaa" ;
+    margin-left: 5%;
+    margin-top: 2%;
+ }
+
+img{
+    width: 20vw;
+    height: auto;
+    margin-left: 25%;
+}

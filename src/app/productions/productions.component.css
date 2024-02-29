@@ -1,0 +1,68 @@
+h1 {
+    color: #FDD90B;
+    font-family: "bubbleboddy" ;
+    padding-right: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.form-control {
+    width: 50%;
+    padding-right: 20%;
+    margin-left: 30%;
+    height: 4vh;
+}
+
+.search {
+    padding-right: 20%;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 4vh;
+    color: #DA001E;
+    font-family: "Comfortaa" ;
+}
+
+#productName {
+    padding-right: 20%;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 4vh;
+    color: #DA001E;
+    font-family: "Comfortaa" ;
+}
+
+.button{
+   background-color: #F9D0A3;
+   border-radius: 10px;
+   padding: 1%;
+   width: 200px;
+   margin-left: 20%;
+   font-family: "Comfortaa" ;
+}
+
+#table{
+    padding-right: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 4vh;
+    width: 50%;
+    font-family: "Comfortaa" ;
+    color: #DA001E;
+}
+
+.product{
+    text-decoration: none;
+    color: #DA001E;
+}
+
+.productP{
+    text-decoration: none;
+    color: #DA001E;
+}
+
+.product:hover{
+    text-decoration: none;
+    color: #151217;
+}
+
+

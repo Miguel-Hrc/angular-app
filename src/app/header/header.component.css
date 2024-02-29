@@ -1,0 +1,23 @@
+.brand-logo {
+    width: 150px;
+}
+
+.Asterix {
+    width: 6vw;
+}
+
+.nav-link{
+    font-size: 1.5vw;
+    font-family: 'bubbleboddy';
+    color: #DA001E ;
+    
+}
+
+.nav-link:hover{
+    color: #151217 ;
+}
+
+.logo {
+    width: 6vw;
+}
+
